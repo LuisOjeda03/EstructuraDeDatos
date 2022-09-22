@@ -7,6 +7,9 @@ public class T4_E6NumMenorArreglo
 
 	public static int numMenor(int vect[], int pos, int menor)
 	{
+		if(vect.length==0)
+			return 0;
+			
 		if(pos==vect.length)
 		{
 			return menor;
